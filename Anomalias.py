@@ -8,3 +8,13 @@ Created on Tue May 16 04:50:23 2017
 
 
 
+import os
+import pandas as pd
+
+
+
+
+os.chdir('/Users/juan/Documents/Gurufocus/Data/csv')
+
+
+Market = pd.read_csv('output.csv')
