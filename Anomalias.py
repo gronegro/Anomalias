@@ -23,7 +23,7 @@ Market = pd.concat(tp, ignore_index=True)
 
 Market1=Market[0:50000]
 
-percentil=15;
+percentil=20;
 #price to earnings
 P2E=Market1.loc[Market1['Fiscal Period']=="PE Ratio(TTM)",['Ticker','TTM/current']]
 #price to earnings positivos
